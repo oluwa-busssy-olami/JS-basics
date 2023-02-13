@@ -15,6 +15,9 @@ let lastName = "Oluwabi"
 let stuternTrack = "FrontEnd"
 let mySkills = "HTML, CSS, JS,"
 let favouriteColor = "Black"
-let countryIndependence = "October 1st, 1960."
+let countryIndependence = "October 1st, 1960"
 
 console.log("My name is" + " " + "" + firstName + "" + " " + lastName + "," + " " + "I'm a" + " " + stuternTrack + " " + "developer (in training)" + " " + "using" + " " + mySkills + " " + "to make beautiful website." + " " + "My nationality is Nigerian" + "," + " " + "Nigeria celebrates the country's independence from British rule which occurred in " + countryIndependence + ".")
+
+document.getElementById("names").innerHTML = Chisom
+console.log("inner.HTML")
